@@ -7,8 +7,15 @@ export const metadata = {
   openGraph: {
     title: "Home | My Website",
     description: "This is the home page of my Next.js practice website.",
-    url: "https://learnog.netlify.app/", 
-    images: [{ url: "/home-og.png" }],
+    url: "https://learnog.netlify.app/",
+    images: [
+      {
+        url: "/home-og.png",
+        width: 1200,
+        height: 630,
+        alt: "Home page preview image",
+      },
+    ],
     type: "website",
   },
 };
