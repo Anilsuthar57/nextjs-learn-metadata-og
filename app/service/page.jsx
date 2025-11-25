@@ -12,13 +12,18 @@ export const metadata = {
   openGraph: {
     title: "Service Page — My Website",
     description: "This is service page description",
-     url: "https://learnog.netlify.app/service",
-    images: [{ url: "/service-og.png" }],
+    url: "https://learnog.netlify.app/service",
+    images: [
+      {
+        url: "/service-og.png",
+        width: 1200,
+        height: 630,
+        alt: "service page preview image",
+      },
+    ],
     type: "website",
   },
 };
-
-
 
 function service() {
   return <div>service page</div>;

@@ -1,20 +1,27 @@
 export const metadata = {
-  title: "Contact | My Website",
-  description: "This is the contact page of my website.",
+  title: "About | My Website",
+  description: "This is the about page of my website.",
   openGraph: {
-    title: "Contact Page — My Website",
-    description: "This is the contact page of my website.",
+    title: "About Page — My Website",
+    description: "This is the about page of my website.",
     url: "https://learnog.netlify.app/about",
-    images: [{ url: "/contact-og.png" }],
+    images: [
+      {
+        url: "/about-og.png",
+        width: 1200,
+        height: 630,
+        alt: "about page preview image",
+      },
+    ],
     type: "website",
   },
 };
 
-export default function ContactPage() {
+export default function AboutPage() {
   return (
     <div>
-      <h1>Contact Page</h1>
-      <p>You can contact us anytime.</p>
+      <h1>About Page</h1>
+      <p>Welcome to the about page.</p>
     </div>
   );
 }

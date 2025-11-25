@@ -4,8 +4,15 @@ export const metadata = {
   openGraph: {
     title: "Contact Page — My Website",
     description: "This is the contact page of my website.",
-   url: "https://learnog.netlify.app/contact",
-    images: [{ url: "/contact-og.png" }],
+    url: "https://learnog.netlify.app/contact",
+    images: [
+      {
+        url: "/contact-og.png",
+        width: 1200,
+        height: 630,
+        alt: "Contact page preview image",
+      },
+    ],
     type: "website",
   },
 };
