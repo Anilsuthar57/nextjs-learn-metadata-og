@@ -12,7 +12,7 @@ export const metadata = {
   openGraph: {
     title: "Service Page — My Website",
     description: "This is service page description",
-    url: "http://localhost:3000/service",
+     url: "https://learnog.netlify.app/service",
     images: [{ url: "/service-og.png" }],
     type: "website",
   },

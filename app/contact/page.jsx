@@ -4,7 +4,7 @@ export const metadata = {
   openGraph: {
     title: "Contact Page — My Website",
     description: "This is the contact page of my website.",
-    url: "http://localhost:3000/contact",
+   url: "https://learnog.netlify.app/contact",
     images: [{ url: "/contact-og.png" }],
     type: "website",
   },
