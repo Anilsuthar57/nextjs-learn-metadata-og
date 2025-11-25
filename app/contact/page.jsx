@@ -7,7 +7,7 @@ export const metadata = {
     url: "https://learnog.netlify.app/contact",
     images: [
       {
-        url: "/contact-og.png",
+        url: "https://learnog.netlify.app/contact-og.png",
         width: 1200,
         height: 630,
         alt: "Contact page preview image",
